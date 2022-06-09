@@ -28,7 +28,7 @@ section {
 .input-field-area > .form-group {
   width: 48%;
 }
-.input-field-area > .form-group input {
+input {
   height: 42px;
 }
 

@@ -32,11 +32,11 @@
   font-family: monospace;
 }
 .route-list a:hover {
-  color: #FFB700;
+  color: #ffb700;
 }
 
 .resume {
-  border: 2px solid #FFB700;
+  border: 2px solid #ffb700;
   border-radius: 8px;
   height: 35px;
   width: 110px;
@@ -45,11 +45,33 @@
   align-items: center;
 }
 .resume a {
-  color: #FFB700;
+  color: #ffb700;
 }
 .resume:hover a {
   color: white;
 }
 .resume:hover {
-  background-color: #FFB700;
+  background-color: #ffb700;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-area {
+    height: 50px;
+  }
+  .brand-area a {
+    font-size: 25px;
+  }
+  .route-list li {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .route-list a {
+    font-size: 18px;
+  }
+  .resume {
+    border: 1px solid #ffb700;
+    border-radius: 20px;
+    height: 25px;
+    width: 80px;
+  }
 }

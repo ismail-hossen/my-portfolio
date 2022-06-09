@@ -7,8 +7,7 @@ const Contact = () => {
   return (
     <section className="container">
       <h1>
-        Thanks for taking the time to reach out. How <br /> can I help you
-        today?
+        Thanks for taking the time to reach out. How can I help you today?
       </h1>
 
       <form onSubmit={handleSubmit}>

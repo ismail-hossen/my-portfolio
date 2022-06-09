@@ -3,15 +3,12 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <header>
       <div className="header-area">
         <div className="brand-area">
           <a href="/">brand</a>
         </div>
         <ul className="route-list">
-          <li>
-            <a href="/about">About</a>
-          </li>
           <li>
             <a href="/projects">Projects</a>
           </li>
@@ -19,11 +16,13 @@ const Header = () => {
             <a href="/contact">Contact</a>
           </li>
           <li className="resume">
-            <a href="/contact">Resume</a>
+            <a href="https://drive.google.com/file/d/11lJoJW8qh6PTPfh1qu84VVfqApgz5Kvm/view?usp=drivesdk">
+              Resume
+            </a>
           </li>
         </ul>
       </div>
-    </div>
+    </header>
   );
 };
 

@@ -2,19 +2,20 @@
   display: flex;
   align-items: center;
   width: 80%;
-  margin: 10px auto;
+  margin: 0 auto;
+  height: 100px;
 }
 .header-area a {
   text-decoration: none;
   color: black;
+  font-size: 25px;
 }
 
 .brand-area {
   width: 20%;
-
 }
-.brand-area a{
-    font-size: 20px;
+.brand-area a {
+  font-size: 35px;
 }
 
 .route-list {
@@ -22,30 +23,33 @@
   list-style: none;
   justify-content: end;
   width: 80%;
+  height: 100%;
+  align-items: center;
 }
 .route-list li {
   margin-right: 10px;
   cursor: pointer;
+  font-family: monospace;
 }
 .route-list a:hover {
-  color: #51cdc7;
+  color: #FFB700;
 }
 
 .resume {
-  margin-left: 5px;
-  border: 1px solid #51cdc7;
-  border-radius: 5px;
-  height: 25px;
-  width: 70px;
+  border: 2px solid #FFB700;
+  border-radius: 8px;
+  height: 35px;
+  width: 110px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .resume a {
-  color: #51cdc7;
+  color: #FFB700;
 }
-.resume a:hover {
+.resume:hover a {
   color: white;
 }
 .resume:hover {
-  background-color: #51cdc7;
+  background-color: #FFB700;
 }

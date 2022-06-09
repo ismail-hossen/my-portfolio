@@ -1,0 +1,51 @@
+.header-area {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+}
+.header-area a {
+  text-decoration: none;
+  color: black;
+}
+
+.brand-area {
+  width: 20%;
+
+}
+.brand-area a{
+    font-size: 20px;
+}
+
+.route-list {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  width: 80%;
+}
+.route-list li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.route-list a:hover {
+  color: #51cdc7;
+}
+
+.resume {
+  margin-left: 5px;
+  border: 1px solid #51cdc7;
+  border-radius: 5px;
+  height: 25px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+}
+.resume a {
+  color: #51cdc7;
+}
+.resume a:hover {
+  color: white;
+}
+.resume:hover {
+  background-color: #51cdc7;
+}

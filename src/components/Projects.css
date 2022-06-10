@@ -1,0 +1,62 @@
+section h1 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-family: monospace;
+  font-size: 25px;
+}
+.projects-area {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+.p-img-area {
+  height: 300px;
+  width: 300px;
+  background-color: aliceblue;
+  position: relative;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p-img-area div {
+  display: none;
+}
+.p-img-area div h1 {
+  position: absolute;
+  color: #ffb700;
+  top: 20%;
+  left: 35%;
+}
+.p-img-area div p {
+  position: absolute;
+  top: 125px;
+  left: 70px;
+}
+.p-img-area div a {
+  position: absolute;
+  top: 70%;
+  background-color: rgba(0, 0, 0, 0.842);
+  left: 42%;
+  text-align: center;
+  color: #ffb700;
+  border-radius: 4px;
+  padding-bottom: 5px;
+  width: 65px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.p-img-area:hover div {
+  display: block;
+  width: 100%;
+  border: 2px solid #ffb700;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  color: white;
+  background-color: rgba(31, 31, 27, 0.774);
+  border-radius: 4px;
+}

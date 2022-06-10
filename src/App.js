@@ -1,4 +1,6 @@
 import { Route, Routes } from "react-router-dom";
+import About from "./components/About";
+import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -9,6 +11,8 @@ function App() {
     <div>
       <Header />
       <Routes>
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />

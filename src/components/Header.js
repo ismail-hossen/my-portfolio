@@ -1,22 +1,34 @@
 import React from "react";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "./Header.css";
+
+function CustomLink({ children, to, ...props }) {
+  let resolved = useResolvedPath(to);
+  let match = useMatch({ path: resolved.pathname, end: true });
+
+  return (
+    <Link className={match && "active"} to={to} {...props}>
+      {children}
+    </Link>
+  );
+}
 
 const Header = () => {
   return (
     <header>
       <div className="header-area">
         <div className="brand-area">
-          <a href="/">Logo</a>
+          <Link to="/">Logo</Link>
         </div>
         <ul className="route-list">
           <li>
-            <a href="/projects">Projects</a>
+            <CustomLink to="/projects">Projects</CustomLink>
           </li>
           <li>
-            <a href="/blog">Blog</a>
+            <CustomLink to="/blog">Blog</CustomLink>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <CustomLink to="/contact">Contact</CustomLink>
           </li>
           <li className="resume">
             <a href="https://drive.google.com/file/d/11lJoJW8qh6PTPfh1qu84VVfqApgz5Kvm/view?usp=drivesdk">

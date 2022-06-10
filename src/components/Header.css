@@ -34,6 +34,9 @@
 .route-list a:hover {
   color: #ffb700;
 }
+.route-list .active{
+  color: #ffb700;
+}
 
 .resume {
   border: 2px solid #ffb700;

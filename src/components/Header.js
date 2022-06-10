@@ -6,12 +6,9 @@ const Header = () => {
     <header>
       <div className="header-area">
         <div className="brand-area">
-          <a href="/">brand</a>
+          <a href="/">Logo</a>
         </div>
         <ul className="route-list">
-          <li>
-            <a href="/about">About</a>
-          </li>
           <li>
             <a href="/projects">Projects</a>
           </li>

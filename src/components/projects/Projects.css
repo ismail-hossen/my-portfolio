@@ -38,12 +38,11 @@ section h1 {
   position: absolute;
   top: 70%;
   background-color: rgba(0, 0, 0, 0.842);
-  left: 42%;
+  left: 35%;
   text-align: center;
   color: #ffb700;
   border-radius: 4px;
   padding-bottom: 5px;
-  width: 65px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -79,6 +78,5 @@ section h1 {
   .p-img-area div a {
     top: 75%;
     left: 110px;
-    width: 90px;
   }
 }

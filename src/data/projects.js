@@ -1,13 +1,9 @@
-import React from "react";
-import "./Projects.css";
-import hakkani from "../images/Capture.PNG";
-import Project from "./Project";
-const arr = [
+const data = [
   {
     id: 1,
     Name: "Hakkani",
     Description: "this project is a manufacturer management system",
-    Image: hakkani,
+    Image: "https://i.ibb.co/PGTg18V/Capture.png",
     Live: "https://hakkani-113a3.web.app/",
     ClientRip: "https://github.com/ismail-hossen/hakkani-client",
     ServerRip: "https://github.com/ismail-hossen/hakkani-server",
@@ -16,7 +12,7 @@ const arr = [
     id: 2,
     Name: "Hakkani",
     Description: "this project is a manufacturer management system",
-    Image: hakkani,
+    Image: "https://i.ibb.co/PGTg18V/Capture.png",
     Live: "https://hakkani-113a3.web.app/",
     ClientRip: "https://github.com/ismail-hossen/hakkani-client",
     ServerRip: "https://github.com/ismail-hossen/hakkani-server",
@@ -25,7 +21,7 @@ const arr = [
     id: 3,
     Name: "Hakkani",
     Description: "this project is a manufacturer management system",
-    Image: hakkani,
+    Image: "https://i.ibb.co/PGTg18V/Capture.png",
     Live: "https://hakkani-113a3.web.app/",
     ClientRip: "https://github.com/ismail-hossen/hakkani-client",
     ServerRip: "https://github.com/ismail-hossen/hakkani-server",
@@ -34,7 +30,7 @@ const arr = [
     id: 4,
     Name: "Hakkani",
     Description: "this project is a manufacturer management system",
-    Image: hakkani,
+    Image: "https://i.ibb.co/PGTg18V/Capture.png",
     Live: "https://hakkani-113a3.web.app/",
     ClientRip: "https://github.com/ismail-hossen/hakkani-client",
     ServerRip: "https://github.com/ismail-hossen/hakkani-server",
@@ -43,7 +39,7 @@ const arr = [
     id: 5,
     Name: "Hakkani",
     Description: "this project is a manufacturer management system",
-    Image: hakkani,
+    Image: "https://i.ibb.co/PGTg18V/Capture.png",
     Live: "https://hakkani-113a3.web.app/",
     ClientRip: "https://github.com/ismail-hossen/hakkani-client",
     ServerRip: "https://github.com/ismail-hossen/hakkani-server",
@@ -52,23 +48,11 @@ const arr = [
     id: 6,
     Name: "Hakkani",
     Description: "this project is a manufacturer management system",
-    Image: hakkani,
+    Image: "https://i.ibb.co/PGTg18V/Capture.png",
     Live: "https://hakkani-113a3.web.app/",
     ClientRip: "https://github.com/ismail-hossen/hakkani-client",
     ServerRip: "https://github.com/ismail-hossen/hakkani-server",
   },
 ];
-const Projects = () => {
-  return (
-    <section>
-      <h1>Check out my latest web software development portfolio projects.</h1>
-      <div className="projects-area">
-        {arr.map((project) => (
-          <Project key={project.id} project={project} />
-        ))}
-      </div>
-    </section>
-  );
-};
 
-export default Projects;
+export default data;

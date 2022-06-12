@@ -34,7 +34,7 @@
 .route-list a:hover {
   color: #ffb700;
 }
-.route-list .active{
+.route-list .active {
   color: #ffb700;
 }
 
@@ -56,7 +56,6 @@
 .resume:hover {
   background-color: #ffb700;
 }
-
 @media only screen and (max-width: 600px) {
   .header-area {
     height: 50px;

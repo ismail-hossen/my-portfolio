@@ -1,5 +1,6 @@
 .home-container {
   width: 100vw;
+  position: relative;
 }
 .intro-area {
   width: 80%;
@@ -32,6 +33,22 @@
   height: 100%;
 }
 
+.social-area {
+  position: absolute;
+  top: 22vh;
+  margin: 0;
+  left: 0;
+  padding: 0;
+}
+.social-area li {
+  background-color: #FFB700;
+  list-style: none;
+  height: 40px;
+  width: 70px;
+}
+.social-area li a {
+  text-decoration: none;
+}
 @media only screen and (max-width: 600px) {
   .intro-area h1 {
     text-align: center;

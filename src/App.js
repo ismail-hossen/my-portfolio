@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Blog from "./components/Blog";
-import Contact from "./components/Contact";
-import Header from "./components/Header";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
+import Contact from "./components/contact/Contact";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
+import NotFound from "./components/NotFound";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

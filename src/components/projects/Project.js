@@ -1,7 +1,7 @@
 import React from "react";
 
 const Project = ({ project }) => {
-  const { Name, Description, Image } = project;
+  const { Name, Description, Image,Live } = project;
   return (
     <div
       className="p-img-area"
@@ -16,7 +16,7 @@ const Project = ({ project }) => {
             ? Description
             : Description.slice(0, 50) + "..."}
         </p>
-        <a href="/#">more ...</a>
+        <a href={Live}>Visit Website</a>
       </div>
     </div>
   );
